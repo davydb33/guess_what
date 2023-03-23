@@ -28,17 +28,22 @@ p {
 body {
     font-family: "Montserat-Bold";
     background-color: #F7C8E0;
-  
+
 }
 
 
 /* Testimonials */
 #testimonials {
-    
+
     text-align: center;
     background-color: #F7C8E0;
     color: #95BDFF;
-    
+
+}
+
+.testimonial-carrousels {
+    vertical-align: middle;
+
 }
 
 .testimonial-image {
@@ -53,23 +58,22 @@ body {
     margin: 20px;
 }
 
+.testimonial-image3 {
+    width: 45%;
+    border-radius: 60%;
+    margin: 20px;
+}
+
 .carousel-item {
     padding: 5% 15%;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
     height: 50px;
     width: 50px;
     outline: black;
-    background-color:#95BDFF;
+    background-color: #95BDFF;
     background-size: 100%, 100%;
     border-radius: 50%;
 }
-
-
-
-
-
-
-
-
